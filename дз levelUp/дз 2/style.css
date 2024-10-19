@@ -1,0 +1,176 @@
+body {
+    width: 100vh;
+    background-image: url("6b7184b69001bf0f1c32509db00494f3.png");
+    font-family: "PTSans", sans-serif;
+    line-height: 140%;
+}
+a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+header{
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center; 
+    z-index: 9999;
+}
+nav{
+    width: 59%;
+    display: flex;
+    font-size: 13px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.men{
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+.entrance{
+    width: 8%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+.entrance_img{
+    display: flex;
+    align-items: center;
+}
+main{
+    color: white;
+    position: absolute;
+    margin-top: 6%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.description{
+    font-size: 12px;
+    text-align: center;
+    width: 59%;
+    margin-top: 3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.cool{
+    margin-top: -2%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+.block1, .block2{
+    font-weight:700;
+    font-size: 12px;
+    margin-top: 4%;
+    padding-bottom: 2%;
+    width: 59%;
+    color: black;
+    font-family: "PTSans", sans-serif;
+    background-image: url("01473fefecfff0841eeb5fbbdd9be2bc.png");
+    display: flex;
+    justify-content: space-between;
+}
+.section1, .section11{
+    margin-top: 2%;
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-bottom: 1%;
+}
+.section2{
+    margin-top: 2%;
+    margin-right: 6%;
+    margin-left: 6%;
+}
+.section3{
+    display: flex;
+    align-items: center;
+}
+.all_news{
+    background-color: black;
+    width:max-content;
+    padding: 4%;
+    padding-left: 15%;
+    padding-right: 15%;
+    margin-top: 7%;
+}
+.back_next, .road_network{
+    margin-top: 7%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.back, .next{
+    width:max-content;
+    padding: 5%;
+    padding-left: 16%;
+    padding-right: 16%;
+    background-color: black;
+}
+.road, .network{
+    width:max-content;
+    padding: 5%;
+    padding-left: 6%;
+    padding-right: 6%;
+    background-color: black;
+}
+.intro__form{
+    display: flex;
+}
+input{
+    margin-top: 6%;
+    margin-bottom: 6%;
+    width: 80%;
+    height: 35px;
+    border-width: 3px;
+}
+.send{
+    margin-top: 5%;
+    text-align: center;
+    background-color: black;
+    width:84%;
+    padding: 4%;
+    margin-bottom: 3%;
+}
+footer{
+    background-image: url("8f8cef2bd50c69e45bd192537111af9f.png");
+    width: 100%;
+    font-size: 14px;
+    line-height: 30px;
+    margin-top: 100%;
+    position:absolute;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+}
+.foot{
+    margin-left: 1%;
+    color: #FFFFFF;
+    width: 59%;
+    display: flex;
+    justify-content: space-between;
+}
+.footer1, .footer2, .footer3{
+    width: 33.333%;
+    text-align: center;
+}
+.footer1{
+    text-align: left;
+}
+.footer2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.nt{
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+}
